@@ -14,3 +14,15 @@ document.getElementById('commentForm').addEventListener('submit', function(event
 
     document.getElementById('commentForm').reset();
 });
+document.getElementById('viewPhotoYuan').addEventListener('click', function() {
+    // 这里可以是打开新页面查看照片，或者使用模态框展示
+    window.open("yuan.jpg", "_blank"); 
+});
+
+document.getElementById('viewPhotoShen').addEventListener('click', function() {
+    window.open("shen.jpg", "_blank");
+});
+
+document.getElementById('viewPhotoYu').addEventListener('click', function() {
+    window.open("yu.jpg", "_blank");
+});

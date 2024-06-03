@@ -3,9 +3,15 @@ body {
 }
 
 header {
-    background-color: #f8d645;
+    background-image: url('gwbj.jpg'); /* 图片路径 */
+    background-position: center; /* 图片位置居中 */
+    background-repeat: no-repeat; /* 图片不平铺 */
+    background-size: cover; /* 图片自适应覆盖整个区域 */
     text-align: center;
-    padding: 20px;
+    padding: 20px; /* 可选，为header内元素留出空间 */
+    /* 以下为可选样式，根据实际情况调整 */
+    height: 300px; /* 或者使用min-height以适应内容 */
+    position: relative; /* 如果需要在header内绝对定位元素 */
 }
 
 nav a {
@@ -40,13 +46,4 @@ section h2 {
     margin-top: 0;
 }
 
-header {
-    background-image: url('gwbj.jpg'); /* 图片路径 */
-    background-position: center; /* 图片位置居中 */
-    background-repeat: no-repeat; /* 图片不平铺 */
-    background-size: cover; /* 图片自适应覆盖整个区域 */
-    padding: 20px; /* 可选，为header内元素留出空间 */
-    /* 以下为可选样式，根据实际情况调整 */
-    height: 300px; /* 或者使用min-height以适应内容 */
-    position: relative; /* 如果需要在header内绝对定位元素 */
-}
+
